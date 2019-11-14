@@ -4,6 +4,9 @@ def withdraw(amount)
  end
 end
 
+interest_rate = 4.45
+balance = balance * interest_rate
+
 array = []
  notes.each_with_index do |note,index|
  	number_of_notes = amount / note
