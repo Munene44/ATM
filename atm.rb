@@ -14,3 +14,8 @@ array = []
       array << note
       amount = amount - note
     end
+     
+  end
+  return false if amount != 0
+  array
+end
