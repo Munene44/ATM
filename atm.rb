@@ -19,6 +19,7 @@ array = []
   return false if amount != 0
   array
 end
+
 require 'minitest/spec'
 require 'minitest/autorun'
 
